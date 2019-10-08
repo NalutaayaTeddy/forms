@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link rel="icon" type="image" href="smile.jpg">
+    <link rel="stylesheet" href="./css/loancss.css">
+</head>
+<body>
+    <form>
+        <div>
+        <h1>plesae fill in the information</h1>
+<label>Last Name</label> <input type="text" name="name"><br>
+<br>
+<label>Email</label><input type="email" name="useremail"><br>
+<p>Gender</p>
+Female<input type="radio" name="gender" value="female"/>
+Male<input type="radio" name="gender" value="male"/><br>
+year<input type="number" name="yearofstudy" value="1" min="1" max="5"/></br>
+DoB <input type="date" name="yearofbirth"/><br/>
+</div>
+<div>
+rice <input type="checkbox" name="rice" value="yes"/></br> 
+chicken <input type="checkbox" name="chicken" value="yes"/></br> 
+chips <input type="checkbox" name="chips" value="yes"/></br> 
+matooke <input type="checkbox" name="matooke" value="yes"/></br> 
+meat <input type="checkbox" name="meat" value="yes"/></br>
+</div> 
+<div>
+<label>Best Car</label>
+<select name="favouritecar">
+    <option value="toyota">Toyota</option>
+    <option value="benz">Benz</option>
+    <option value="nissan">Nissan</option>
+    <option value="bmw">BMW</option>
+    </div>
+    <div>
+    </select><br>
+    <label>Salary</label>
+    <input type="number" min="200000" step="50000"/><br/>
+    <label> Passport photo</label>
+    <input type="file" name="photo" multiple accept="image/*"/></br>
+    <textarea name="comment" cols="50" rows="5">
+        please, how is my site...
+    </textarea><br/><br/>
+</div>
+    <input type="submit" value="send">
+    </form>
+</body>
+</html>
